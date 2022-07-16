@@ -70,5 +70,5 @@ $id = $_SESSION['id'];
 $update_data = new userClass();
 $result = $update_data->update_form($_POST,$_FILES);
 $arr = array('status' => 1, 'message' => $result);
-echo json_encode($arr);
+echo json_encode($arr); 
 ?>
